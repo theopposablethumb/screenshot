@@ -1,3 +1,10 @@
+# Front End for screenshot-rest App
+
+A simple React front end built to test the node app I built to fetch and process multiple screenshots in parallel. This was purely a POC, and I wanted a front end to support submitting multiple URLs and sending a request, and then see if I could render a base64 string as an image. It all works nicely.
+
+Relatively standard react stuff going on in here. We're using AXIOS to make the request and receive a response. Responses are received as an array so we use .map to iterate over them and render them.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
